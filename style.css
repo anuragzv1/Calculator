@@ -123,3 +123,18 @@
     left:-1px;
     box-shadow: -2px 4px 0px 0px rgb(128, 98, 72);
 }
+@media (max-width:600px){
+    #calculator{
+        width:360px;
+        height:600px;
+        margin:auto;
+        
+    }
+    
+    #screen-outer{
+        width:320px;
+    }
+    #main-screen{
+        width:300px;
+    }
+}
