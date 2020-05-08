@@ -1,0 +1,125 @@
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#full-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator{
+    width: 500px;
+    height: 680px;
+    background-color: #F2AF37;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+#screen-outer{
+    width:400px;
+    height:130px;
+    background-color: #5F4C3D;
+    margin-top: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-screen{
+    background-color: #6BABB0;
+    width: 350px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: right;
+    line-height: 167px;
+    vertical-align: bottom;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 3px;
+}
+
+#cal-buttons{
+    /* background-color: #e3e3e3; */
+    width: 400px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:#e3e3e3;
+    
+}
+#row-one{
+    height: 400px;
+    width: 260px;
+    box-sizing: border-box;
+}
+#row-two{
+    height: 400px;
+    width: 90px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cal-button{
+    background-color: #604C3B;
+    width:70px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+    vertical-align: center;
+    box-shadow: -2px 4px 1px 1px rgb(128, 98, 72);
+    cursor: pointer;
+    box-shadow: -2px 4px 1px 1px rgb(128, 98, 72);
+   
+}
+.cal-button:hover{
+    position: relative;
+    top:1px;
+    left:-1px;
+    box-shadow: -2px 4px 0px 0px rgb(128, 98, 72);
+}
+
+.row-one-hori{
+ width: 250px;
+ height: 74px;
+ margin: 5px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.right-button{
+    width: 70px;
+    height: 70px;
+    background-color: #604C3B;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+    vertical-align: center;
+    box-shadow: -2px 4px 1px 1px rgb(128, 98, 72);
+    cursor: pointer;
+}
+
+.right-button:hover{
+    position: relative;
+    top:1px;
+    left:-1px;
+    box-shadow: -2px 4px 0px 0px rgb(128, 98, 72);
+}
